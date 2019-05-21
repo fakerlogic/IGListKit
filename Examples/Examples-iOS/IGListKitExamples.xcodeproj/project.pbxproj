@@ -100,13 +100,13 @@
 		98B4DBF41DC2937A002BA58A /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B4DBF31DC2937A002BA58A /* Demo.storyboard */; };
 		C82AE9741251907F18F77350 /* Pods_IGListKitMessageExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B1FA2EFFA5E994FEE587DE /* Pods_IGListKitMessageExample.framework */; };
 		CBA8F64BE2F00E8B3DEFF6ED /* Pods_IGListKitExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7316EF8201F89655D39E53 /* Pods_IGListKitExamples.framework */; };
-		FF73FF9C1FBA4B4400F2AB06 /* UserFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73FF9B1FBA4B4400F2AB06 /* UserFooterView.swift */; };
-		FF73FF9E1FBA4B5500F2AB06 /* UserFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73FF9D1FBA4B5500F2AB06 /* UserFooterView.xib */; };
 		EB0289A2202A11E0007E17D5 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02899F202A11DF007E17D5 /* PersonModel.m */; };
 		EB0289A3202A11E0007E17D5 /* PersonModel.value in Resources */ = {isa = PBXBuildFile; fileRef = EB0289A0202A11DF007E17D5 /* PersonModel.value */; };
 		EB0289A6202A14E1007E17D5 /* ObjcGeneratedModelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0289A5202A14E1007E17D5 /* ObjcGeneratedModelDemoViewController.m */; };
 		EB0289A9202A1507007E17D5 /* PersonSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0289A8202A1507007E17D5 /* PersonSectionController.m */; };
 		EB0289AC202A1705007E17D5 /* PersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0289AA202A1705007E17D5 /* PersonCell.m */; };
+		FF73FF9C1FBA4B4400F2AB06 /* UserFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73FF9B1FBA4B4400F2AB06 /* UserFooterView.swift */; };
+		FF73FF9E1FBA4B5500F2AB06 /* UserFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73FF9D1FBA4B5500F2AB06 /* UserFooterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -661,7 +661,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Instagram;
 				TargetAttributes = {
 					2961B3891D68B031001C9451 = {
@@ -671,25 +671,25 @@
 					};
 					95F7F9101DE5006B00A64FEE = {
 						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2961B3891D68B031001C9451;
 					};
 					986FB7101DBBA60900A65C18 = {
 						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					986FB72E1DBBAD8600A65C18 = {
 						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 2961B3851D68B031001C9451 /* Build configuration list for PBXProject "IGListKitExamples" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -1031,6 +1031,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1040,12 +1041,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1084,6 +1087,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1093,12 +1097,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1145,7 +1151,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "IGListKitExamples/ViewControllers/IGListKitExamples-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1166,7 +1172,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "IGListKitExamples/ViewControllers/IGListKitExamples-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1182,8 +1188,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.instagram.IGListKitExamples-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = IGListKitExamples;
 			};
 			name = Debug;
@@ -1199,8 +1204,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.instagram.IGListKitExamples-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = IGListKitExamples;
 			};
 			name = Release;
@@ -1221,8 +1225,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1241,8 +1244,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.instagram.IGListKitExamples.IGListKitMessageExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1261,8 +1263,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1280,8 +1281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.instagram.IGListKitExamples.IGListKitTodayExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
